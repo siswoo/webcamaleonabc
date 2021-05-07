@@ -1,0 +1,7 @@
+body{
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+.seccion1{
+	background: lightblue url("../img/img8.webp") no-repeat fixed center;
+}

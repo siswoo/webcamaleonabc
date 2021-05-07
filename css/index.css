@@ -1,0 +1,71 @@
+body{
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+.navbar-toggler{
+	background-color: #828405;
+}
+
+.seccion2_titulo1{
+	font-size: 38px;
+	/*font-weight: bold;*/
+}
+
+.seccion2_texto1{
+	font-size: 20px;
+}
+
+.seccion3{
+	background-color: #00000021;
+}
+
+.seccion3_titulo1{
+	font-size: 38px;
+	/*font-weight: bold;*/
+}
+
+.seccion3_texto1{
+	font-size: 20px;
+	text-align: justify;
+}
+
+.seccion3_titulo2{
+	font-size: 30px;
+	border-width: 2px;
+  	border-style: solid;
+  	border-color: #aa7800;
+  	width: 250px;
+  	padding: 1rem;
+  	border-radius: 1rem;
+  	text-align: center;
+}
+
+.seccion4{
+	background: lightblue url("../img/img4.webp") no-repeat fixed center;
+}
+
+.seccion4_titulo1{
+	color:white;
+	font-size: 45px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.seccion4_img1{
+	width: 400px;
+}
+
+.seccion4_texto1{
+	font-size: 20px;
+	color: white;
+	margin-top: 1rem;
+}
+
+@media (max-width: 1200px) {
+	.seccion4_img1{
+		display: none;
+	}
+	.seccion5{
+		display: none;
+	}
+}

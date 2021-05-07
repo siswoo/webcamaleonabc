@@ -1,0 +1,73 @@
+body{
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+.seccion2_img1{
+	max-width: 400px;
+}
+
+.seccion2_titulo1{
+	font-size: 28px;
+	font-weight: bold;
+	padding-top: 2rem;
+}
+
+.seccion2_texto1{
+	text-align: justify;
+	font-size: 13px;
+	padding-right: 1rem;
+}
+
+.seccion2_estupides1{
+	font-size: 12px;
+	font-weight: bold;
+	padding-right: 1rem;
+}
+
+.seccion3_img1{
+	max-width: 600px;
+	margin-top: 1rem;
+}
+
+.seccion3_titulo1{
+	font-size: 28px;
+	font-weight: bold;
+	padding-top: 2rem;
+	padding-left: 1rem;
+}
+
+.seccion3_texto1{
+	text-align: justify;
+	font-size: 13px;
+	padding-left: 1rem;
+}
+
+.seccion3_estupides1{
+	font-size: 12px;
+	font-weight: bold;
+	padding-left: 1rem;
+}
+
+.seccion4_img1{
+	max-width: 600px;
+	margin-top: 3rem;
+}
+
+.seccion4_titulo1{
+	font-size: 28px;
+	font-weight: bold;
+	padding-top: 2rem;
+	padding-left: 1rem;
+}
+
+.seccion4_texto1{
+	text-align: justify;
+	font-size: 13px;
+	padding-right: 1rem;
+}
+
+.seccion4_estupides1{
+	font-size: 12px;
+	font-weight: bold;
+	padding-right: 1rem;
+}

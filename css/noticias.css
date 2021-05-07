@@ -1,0 +1,29 @@
+body{
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+.seccion2_titulo1{
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.seccion2_texto1{
+	font-size: 18px;
+}
+
+.seccion2_a1{
+	text-decoration: none !important;
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 'Work Sans', sans-serif;
+}
+
+.seccion2_texto1{
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+.card-jj1{
+	min-height: 500px;
+}
