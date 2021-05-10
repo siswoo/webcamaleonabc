@@ -34,175 +34,175 @@ include("header.php");
   	<div class="row">
   		<div class="col-3 mt-3 div-imagen">
   			<div class="" style="padding: 2rem; margin-top: 1rem;">
-      			Descripción de la foto que quieres que se muestre
+      			Conoce los rooms temáticos de nuestras sedes presenciales, te brindamos las mejores instalaciones.
   			</div>
   			<img src="img/gal1.webp" class="img-fluid desvanecer" style="border-radius: 1rem; cursor: pointer;">
   		</div>
   		<div class="col-3 mt-3 div-imagen">
   			<div class="" style="padding: 2rem; margin-top: 1rem;">
-      			Descripción de la foto que quieres que se muestre
+      			Conoce los rooms temáticos de nuestras sedes presenciales, te brindamos las mejores instalaciones.
   			</div>
   			<img src="img/gal2.webp" class="img-fluid desvanecer" style="border-radius: 1rem; cursor: pointer;">
   		</div>
   		<div class="col-3 mt-3 div-imagen">
   			<div class="" style="padding: 2rem; margin-top: 1rem;">
-      			Descripción de la foto que quieres que se muestre
+      			Conoce los rooms temáticos de nuestras sedes presenciales, te brindamos las mejores instalaciones.
   			</div>
   			<img src="img/gal3.webp" class="img-fluid desvanecer" style="border-radius: 1rem; cursor: pointer;">
   		</div>
   		<div class="col-3 mt-3 div-imagen">
   			<div class="" style="padding: 2rem; margin-top: 1rem;">
-      			Descripción de la foto que quieres que se muestre
+      			Conoce los rooms temáticos de nuestras sedes presenciales, te brindamos las mejores instalaciones.
   			</div>
   			<img src="img/gal4.webp" class="img-fluid desvanecer" style="border-radius: 1rem; cursor: pointer;">
   		</div>
 
   		<div class="col-3 mt-3 div-imagen">
   			<div class="" style="padding: 2rem; margin-top: 1rem;">
-      			Descripción de la foto que quieres que se muestre
+      			Conoce los rooms temáticos de nuestras sedes presenciales, te brindamos las mejores instalaciones.
   			</div>
   			<img src="img/gal5.webp" class="img-fluid desvanecer" style="border-radius: 1rem; cursor: pointer;">
   		</div>
   		<div class="col-3 mt-3 div-imagen">
   			<div class="" style="padding: 2rem; margin-top: 1rem;">
-      			Descripción de la foto que quieres que se muestre
+      			Conoce los rooms temáticos de nuestras sedes presenciales, te brindamos las mejores instalaciones.
   			</div>
   			<img src="img/gal6.webp" class="img-fluid desvanecer" style="border-radius: 1rem; cursor: pointer;">
   		</div>
   		<div class="col-3 mt-3 div-imagen">
   			<div class="" style="padding: 2rem; margin-top: 1rem;">
-      			Descripción de la foto que quieres que se muestre
+      			Conoce los rooms temáticos de nuestras sedes presenciales, te brindamos las mejores instalaciones.
   			</div>
   			<img src="img/gal7.webp" class="img-fluid desvanecer" style="border-radius: 1rem; cursor: pointer;">
   		</div>
   		<div class="col-3 mt-3 div-imagen">
   			<div class="" style="padding: 2rem; margin-top: 1rem;">
-      			Descripción de la foto que quieres que se muestre
+      			Conoce los rooms temáticos de nuestras sedes presenciales, te brindamos las mejores instalaciones.
   			</div>
   			<img src="img/gal8.webp" class="img-fluid desvanecer" style="border-radius: 1rem; cursor: pointer;">
   		</div>
 
   		<div class="col-3 mt-3 div-imagen">
   			<div class="" style="padding: 2rem; margin-top: 1rem;">
-      			Descripción de la foto que quieres que se muestre
+      			Conoce los rooms temáticos de nuestras sedes presenciales, te brindamos las mejores instalaciones.
   			</div>
   			<img src="img/gal9.webp" class="img-fluid desvanecer" style="border-radius: 1rem; cursor: pointer;">
   		</div>
   		<div class="col-3 mt-3 div-imagen">
   			<div class="" style="padding: 2rem; margin-top: 1rem;">
-      			Descripción de la foto que quieres que se muestre
+      			Conoce los rooms temáticos de nuestras sedes presenciales, te brindamos las mejores instalaciones.
   			</div>
   			<img src="img/gal10.webp" class="img-fluid desvanecer" style="border-radius: 1rem; cursor: pointer;">
   		</div>
   		<div class="col-3 mt-3 div-imagen">
   			<div class="" style="padding: 2rem; margin-top: 1rem;">
-      			Descripción de la foto que quieres que se muestre
+      			Conoce los rooms temáticos de nuestras sedes presenciales, te brindamos las mejores instalaciones.
   			</div>
   			<img src="img/gal11.webp" class="img-fluid desvanecer" style="border-radius: 1rem; cursor: pointer;">
   		</div>
   		<div class="col-3 mt-3 div-imagen">
   			<div class="" style="padding: 2rem; margin-top: 1rem;">
-      			Descripción de la foto que quieres que se muestre
+      			Conoce los rooms temáticos de nuestras sedes presenciales, te brindamos las mejores instalaciones.
   			</div>
   			<img src="img/gal12.webp" class="img-fluid desvanecer" style="border-radius: 1rem; cursor: pointer;">
   		</div>
 
   		<div class="col-3 mt-3 div-imagen">
   			<div class="" style="padding: 2rem; margin-top: 1rem;">
-      			Descripción de la foto que quieres que se muestre
+      			Revive con nosotros los mejores momentos de Halloween en nuestra familia Camaleón.
   			</div>
   			<img src="img/gal26.webp" class="img-fluid desvanecer" style="border-radius: 1rem; cursor: pointer;">
   		</div>
   		<div class="col-3 mt-3 div-imagen">
   			<div class="" style="padding: 2rem; margin-top: 1rem;">
-      			Descripción de la foto que quieres que se muestre
+      			Revive con nosotros los mejores momentos de Halloween en nuestra familia Camaleón.
   			</div>
   			<img src="img/gal27.webp" class="img-fluid desvanecer" style="border-radius: 1rem; cursor: pointer;">
   		</div>
   		<div class="col-3 mt-3 div-imagen">
   			<div class="" style="padding: 2rem; margin-top: 1rem;">
-      			Descripción de la foto que quieres que se muestre
+      			Revive con nosotros los mejores momentos de Halloween en nuestra familia Camaleón.
   			</div>
   			<img src="img/gal28.webp" class="img-fluid desvanecer" style="border-radius: 1rem; cursor: pointer;">
   		</div>
   		<div class="col-3 mt-3 div-imagen">
   			<div class="" style="padding: 2rem; margin-top: 1rem;">
-      			Descripción de la foto que quieres que se muestre
+      			Revive con nosotros los mejores momentos de Halloween en nuestra familia Camaleón.
   			</div>
   			<img src="img/gal31.webp" class="img-fluid desvanecer" style="border-radius: 1rem; cursor: pointer;">
   		</div>
 
   		<div class="col-3 mt-3 div-imagen">
   			<div class="" style="padding: 2rem; margin-top: 1rem;">
-      			Descripción de la foto que quieres que se muestre
+      			Conoce los rooms temáticos de nuestras sedes presenciales, te brindamos las mejores instalaciones.
   			</div>
   			<img src="img/gal13.webp" class="img-fluid desvanecer" style="border-radius: 1rem; cursor: pointer;">
   		</div>
   		<div class="col-3 mt-3 div-imagen">
   			<div class="" style="padding: 2rem; margin-top: 1rem;">
-      			Descripción de la foto que quieres que se muestre
+      			Conoce los rooms temáticos de nuestras sedes presenciales, te brindamos las mejores instalaciones.
   			</div>
   			<img src="img/gal14.webp" class="img-fluid desvanecer" style="border-radius: 1rem; cursor: pointer;">
   		</div>
   		<div class="col-3 mt-3 div-imagen">
   			<div class="" style="padding: 2rem; margin-top: 1rem;">
-      			Descripción de la foto que quieres que se muestre
+      			Conoce los rooms temáticos de nuestras sedes presenciales, te brindamos las mejores instalaciones.
   			</div>
   			<img src="img/gal15.webp" class="img-fluid desvanecer" style="border-radius: 1rem; cursor: pointer;">
   		</div>
   		<div class="col-3 mt-3 div-imagen">
   			<div class="" style="padding: 2rem; margin-top: 1rem;">
-      			Descripción de la foto que quieres que se muestre
+      			Así vivimos nuestra gala Camaleón.
   			</div>
   			<img src="img/gal16.webp" class="img-fluid desvanecer" style="border-radius: 1rem; cursor: pointer;">
   		</div>
 
   		<div class="col-3 mt-3 div-imagen">
   			<div class="" style="padding: 2rem; margin-top: 1rem;">
-      			Descripción de la foto que quieres que se muestre
+      			Así vivimos nuestra gala Camaleón.
   			</div>
   			<img src="img/gal18.webp" class="img-fluid desvanecer" style="border-radius: 1rem; cursor: pointer;">
   		</div>
   		<div class="col-3 mt-3 div-imagen">
   			<div class="" style="padding: 2rem; margin-top: 1rem;">
-      			Descripción de la foto que quieres que se muestre
+      			Así vivimos nuestra gala Camaleón.
   			</div>
   			<img src="img/gal19.webp" class="img-fluid desvanecer" style="border-radius: 1rem; cursor: pointer;">
   		</div>
   		<div class="col-3 mt-3 div-imagen">
   			<div class="" style="padding: 2rem; margin-top: 1rem;">
-      			Descripción de la foto que quieres que se muestre
+      			Así vivimos nuestra gala Camaleón.
   			</div>
   			<img src="img/gal20.webp" class="img-fluid desvanecer" style="border-radius: 1rem; cursor: pointer;">
   		</div>
   		<div class="col-3 mt-3 div-imagen">
   			<div class="" style="padding: 2rem; margin-top: 1rem;">
-      			Descripción de la foto que quieres que se muestre
+      			Así vivimos nuestra gala Camaleón.
   			</div>
   			<img src="img/gal21.webp" class="img-fluid desvanecer" style="border-radius: 1rem; cursor: pointer;">
   		</div>
 
   		<div class="col-3 mt-3 div-imagen">
   			<div class="" style="padding: 2rem; margin-top: 1rem;">
-      			Descripción de la foto que quieres que se muestre
+      			Así vivimos nuestra gala Camaleón.
   			</div>
   			<img src="img/gal22.webp" class="img-fluid desvanecer" style="border-radius: 1rem; cursor: pointer;">
   		</div>
   		<div class="col-3 mt-3 div-imagen">
   			<div class="" style="padding: 2rem; margin-top: 1rem;">
-      			Descripción de la foto que quieres que se muestre
+      			Así vivimos nuestra gala Camaleón.
   			</div>
   			<img src="img/gal23.webp" class="img-fluid desvanecer" style="border-radius: 1rem; cursor: pointer;">
   		</div>
   		<div class="col-3 mt-3 div-imagen">
   			<div class="" style="padding: 2rem; margin-top: 1rem;">
-      			Descripción de la foto que quieres que se muestre
+      			Celebración de nuestros 5.000 seguidores en Instagram.
   			</div>
   			<img src="img/gal24.webp" class="img-fluid desvanecer" style="border-radius: 1rem; cursor: pointer;">
   		</div>
   		<div class="col-3 mt-3 div-imagen">
   			<div class="" style="padding: 2rem; margin-top: 1rem;">
-      			Descripción de la foto que quieres que se muestre
+      			Edificamos los mejores recursos para ti, te presentamos nuestro Salón de belleza sede C.A.V
   			</div>
   			<img src="img/gal25.webp" class="img-fluid desvanecer" style="border-radius: 1rem; cursor: pointer;">
   		</div>

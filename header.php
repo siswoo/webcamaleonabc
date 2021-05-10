@@ -8,7 +8,7 @@
 			<img src="img/logos/logo1.webp" style="width: 370px; margin-right: 4rem;" class="img-fluid">
 		</a>
 	<?php } ?>
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background-color: white;">
    		<span class="navbar-toggler-icon"></span>
 	</button>
 

@@ -45,7 +45,7 @@ include("header.php");
 <div class="seccion3">
   <div class="row" style="align-items: center;">
     <div class="col-6" style="padding-left: 2rem;">
-      <p class="seccion3_titulo1">Primer Bazar de ventas y servicios <br> de la industria Webcam en el mundo:</p>
+      <p class="seccion3_titulo1">Primer Bazar en la industria <br> Webcam en el mundo:</p>
       <p class="seccion3_texto1">
         Al encuentro asistieron más de 1.200 personas, entre modelos, invitados, proveedores y administrativos de la Industria. El pasado 6 de marzo se llevó a cabo en la ciudad de Bogotá, el primer Bazar de productos y servicios de la industria Webcam, un evento organizado por la empresa Camaleón Models Group, el cual contó con una excelente asistencia.
         <br><br>

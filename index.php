@@ -55,14 +55,16 @@ include("header.php");
 			<div class="col-12 col-md-6 text-center">
 				<img src="img/img1.webp" class="img-fluid" style="width: 320px;">
 			</div>
-			<div class="col-12 col-md-6 text-justify mt-3">
+			<div class="col-12 col-md-6 text-justify">
 				<p class="seccion2_titulo1"><strong>TRABAJA</strong> COMO</p>
 				<p class="seccion2_titulo1">MODELO <strong>WEB CAM</strong></p>
 				<p class="seccion2_texto1">Bienvenidos a Camaleón Models Group.</p>
-				<p class="seccion2_texto1">Una compañia innovadora, responsable y confiable, en donde encontrarás la oportunidad de conseguir tus metas.</p>
+				<p class="seccion2_texto1">Una compañía multinacional legalmente constituida con amplia experiencia en la industria del entretenimiento para adultos. Nuestro compromiso con el crecimiento personal y profesional de nuestras modelos es nuestra prioridad, por eso contamos con un equipo especializado en todas las áreas, tecnología de punta e instalaciones de lujo, para que logres los mejores resultados.</p>
+				<!--
 				<p class="seccion2_texto1">
-					<a href="#" style="color:#aa7800;">Más información ></a>
+					<a href="#" data-toggle="modal" data-target="#exampleModal1" style="color:#aa7800;">Más información ></a>
 				</p>
+				-->
 			</div>
 		</div>
 	</div>
@@ -73,7 +75,11 @@ include("header.php");
 		<div class="row">
 			<div class="col-12 col-md-6 text-justify mt-3">
 				<p class="seccion3_titulo1"><strong>PROCESO DE</strong></p>
-				<p class="seccion3_titulo2">VINCULACIÓN</p>
+				<p class="seccion3_titulo2">
+					<a href="contacto.php" class="seccion3_a1">
+						VINCULACIÓN
+					</a>
+				</p>
 				<p class="seccion3_texto1">Para participar en nuestro proceso de selección, debes comunicarte con nosotros en los diferentes canales habilitados, escribir a través del link de WhatsApp, enviar tu información de contacto o en el correo electrónico de recursos humanos.</p>
 			</div>
 			<div class="col-12 col-md-6 text-center">
@@ -236,6 +242,37 @@ include("header.php");
 <?php
 include("footer.php");
 ?>
+
+<!-- Modal 1 -->
+	<div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel"></h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-12 text-center" style="font-size: 21px; font-weight: bold;">
+							TRABAJA COMO MODELO WEB CAM
+						</div>
+						<div class="col-12 text-justify mt-3" style="font-size: 18px; padding-left: 2rem; padding-right: 3rem;">
+							Bienvenidos a Camaleón Models.
+							<br>
+							Una compañía multinacional legalmente constituida con amplia experiencia en la industria del entretenimiento para adultos. Nuestro compromiso con el crecimiento personal y profesional de nuestras modelos es nuestra prioridad, por eso contamos con un equipo especializado en todas las áreas, tecnología de punta e instalaciones de lujo, para que logres los mejores resultados.
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+				    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+			    </div>
+	    	</div>
+	  	</div>
+	</div>
+<!-- FIN Modal 1 -->
+
 
 </body>
 </html>

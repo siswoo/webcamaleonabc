@@ -26,11 +26,11 @@ include("header.php");
   	<div class="row">
       <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
         <div class="card card-jj1">
-          <img src="img/gal2.webp" class="card-img-top" alt="...">
+          <video src="videos/noticia_1.mp4" style="max-width: 800px; max-height: 230px; min-height: 230px;" controls  muted></video>
           <div class="card-body">
             <h5 class="card-title text-center">
               <a href="" class="seccion2_a1">
-                ¿Cómo monetizar la biografía webcam sin estar online?
+                Primer Bazar Camaleón
               </a>
             </h5>
             <p class="card-text text-justify seccion2_texto1">
@@ -42,7 +42,7 @@ include("header.php");
 
       <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
         <div class="card card-jj1">
-          <img src="img/gal2.webp" class="card-img-top" alt="...">
+          <video src="videos/noticia_2.mp4" style="max-width: 800px; max-height: 230px; min-height: 230px;" controls  muted></video>
           <div class="card-body">
             <h5 class="card-title text-center">
               <a href="" class="seccion2_a1">
@@ -59,7 +59,7 @@ include("header.php");
 
       <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
         <div class="card card-jj1">
-          <img src="img/gal2.webp" class="card-img-top" alt="...">
+          <video src="videos/noticia_3.mp4" style="max-width: 800px; max-height: 230px; min-height: 230px;" controls  muted></video>
           <div class="card-body">
             <h5 class="card-title text-center">
               <a href="" class="seccion2_a1">
@@ -75,7 +75,7 @@ include("header.php");
 
       <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-3">
         <div class="card card-jj1">
-          <img src="img/gal2.webp" class="card-img-top" alt="...">
+          <video src="videos/noticia_4.mp4" style="max-width: 800px; max-height: 230px; min-height: 230px;" controls  muted></video>
           <div class="card-body">
             <h5 class="card-title text-center">
               <a href="" class="seccion2_a1">
@@ -91,7 +91,7 @@ include("header.php");
 
       <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-3">
         <div class="card card-jj1">
-          <img src="img/gal2.webp" class="card-img-top" alt="...">
+          <video src="videos/noticia_5.mp4" style="max-width: 800px; max-height: 230px; min-height: 230px;" controls  muted></video>
           <div class="card-body">
             <h5 class="card-title text-center">
               <a href="" class="seccion2_a1">
@@ -107,7 +107,7 @@ include("header.php");
 
       <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-3">
         <div class="card card-jj1">
-          <img src="img/gal2.webp" class="card-img-top" alt="...">
+          <video src="videos/noticia_6.mp4" style="max-width: 800px; max-height: 230px; min-height: 230px;" controls  muted></video>
           <div class="card-body">
             <h5 class="card-title text-center">
               <a href="" class="seccion2_a1">
@@ -123,7 +123,7 @@ include("header.php");
 
       <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-3">
         <div class="card card-jj1">
-          <video src="videos/video3.mp4" style="max-width: 800px; max-height: 230px;" controls  muted></video>
+          <video src="videos/noticia_7.mp4" style="max-width: 800px; max-height: 230px; min-height: 230px;" controls  muted></video>
           <div class="card-body">
             <h5 class="card-title text-center">
               <a href="" class="seccion2_a1">
@@ -139,7 +139,7 @@ include("header.php");
 
       <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-3">
         <div class="card card-jj1">
-          <img src="img/gal2.webp" class="card-img-top" alt="...">
+          <video src="videos/video2.mp4" style="max-width: 800px; max-height: 230px; min-height: 230px;" controls  muted></video>
           <div class="card-body">
             <h5 class="card-title text-center">
               <a href="" class="seccion2_a1">
@@ -153,10 +153,9 @@ include("header.php");
         </div>
       </div>
 
-      <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-3">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 mt-3">
         <div class="card card-jj1">
-          <!--<img src="img/gal2.webp" class="card-img-top" alt="...">-->
-          <video src="videos/video2.mp4" style="max-width: 800px; max-height: 230px;" controls  muted></video>
+          <video src="videos/noticia_9.mp4" style="max-width: 800px; max-height: 230px; min-height: 230px;" controls  muted></video>
           <div class="card-body">
             <h5 class="card-title text-center">
               <a href="" class="seccion2_a1">
