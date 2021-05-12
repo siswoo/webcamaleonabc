@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/png" href="img/favicon1.webp">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/dataTables.bootstrap4.min.css">
     <link href="resources/fontawesome/css/all.css" rel="stylesheet">
@@ -27,7 +28,7 @@ include("header.php");
 	  		
 	  	<div class="carousel-inner">
 	    	<div class="carousel-item active">
-	      		<img class="d-block w-100 h-100" src="img/sliders/slider4.webp" alt="Primer slider" style="max-height: 600px;">
+	      		<img class="d-block w-100 h-100" src="img/sliders/slider13.webp" alt="Primer slider" style="max-height: 600px;">
 	    	</div>
 	    	<div class="carousel-item">
 	      		<img class="d-block w-100 h-100" src="img/sliders/slider2.webp" alt="Segundo slider" style="max-height: 600px;">
@@ -59,12 +60,7 @@ include("header.php");
 				<p class="seccion2_titulo1"><strong>TRABAJA</strong> COMO</p>
 				<p class="seccion2_titulo1">MODELO <strong>WEB CAM</strong></p>
 				<p class="seccion2_texto1">Bienvenidos a Camaleón Models Group.</p>
-				<p class="seccion2_texto1">Una compañía multinacional legalmente constituida con amplia experiencia en la industria del entretenimiento para adultos. Nuestro compromiso con el crecimiento personal y profesional de nuestras modelos es nuestra prioridad, por eso contamos con un equipo especializado en todas las áreas, tecnología de punta e instalaciones de lujo, para que logres los mejores resultados.</p>
-				<!--
-				<p class="seccion2_texto1">
-					<a href="#" data-toggle="modal" data-target="#exampleModal1" style="color:#aa7800;">Más información ></a>
-				</p>
-				-->
+				<p class="seccion2_texto1">Una compañía multinacional legalmente constituida con amplia experiencia en la industria del entretenimiento para adultos. Estamos comprometidos con el crecimiento personal y profesional de nuestras modelos, por eso contamos con un equipo especializado en todas las áreas, tecnología de punta e instalaciones de lujo.</p>
 			</div>
 		</div>
 	</div>
@@ -74,13 +70,13 @@ include("header.php");
 	<div class="container" style="padding-top: 2rem;">
 		<div class="row">
 			<div class="col-12 col-md-6 text-justify mt-3">
-				<p class="seccion3_titulo1"><strong>PROCESO DE</strong></p>
-				<p class="seccion3_titulo2">
+				<p class="seccion3_titulo1"><strong>PROCESO DE VINCULACIÓN</strong></p>
+				<p class="seccion3_texto1">Para participar en nuestro proceso de selección, debes comunicarte con nosotros en los diferentes canales habilitados, escribir a través del link de WhatsApp o el formulario de vinculación. </p>
+				<p class="seccion3_titulo2 text-center">
 					<a href="contacto.php" class="seccion3_a1">
-						VINCULACIÓN
+						<button type="button" class="btn btn-primary" style="font-size: 30px;">CLIC AQUÍ</button>
 					</a>
 				</p>
-				<p class="seccion3_texto1">Para participar en nuestro proceso de selección, debes comunicarte con nosotros en los diferentes canales habilitados, escribir a través del link de WhatsApp, enviar tu información de contacto o en el correo electrónico de recursos humanos.</p>
 			</div>
 			<div class="col-12 col-md-6 text-center">
 				<img src="img/img2.webp" class="img-fluid" style="width: 420px;">

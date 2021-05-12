@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/png" href="img/favicon1.webp">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/dataTables.bootstrap4.min.css">
     <link href="resources/fontawesome/css/all.css" rel="stylesheet">
@@ -17,6 +18,16 @@ include("script/conexion.php");
 include("header.php");
 ?>
 
+<!--
+<div class="container seccion1">
+  <div class="row">
+    <div class="col-12 text-center">
+      <img src="img/img8.webp" style="max-width: 500px;" class="img-fluid mt-3">
+    </div>
+  </div>
+</div>
+-->
+
 <div class="container seccion2">
   <div class="row">
     <form action="#" method="POST" id="formulario1">
@@ -26,7 +37,7 @@ include("header.php");
             <hr style="height: 2px; width: 100%; background-color: white;">
           </div>
           <input type="hidden" id="condicion1" name="condicion1" value="contacto1">
-          <div class="col-12 text-center mt-1 mb-3" style="font-size: 30px; font-weight: bold;">FORMULARIO DE CONTACTO</div>
+          <div class="col-12 text-center mt-1 mb-3" style="font-size: 30px; font-weight: bold; color: white;">FORMULARIO DE CONTACTO</div>
           <div class="col-6 mt-1">
             <input type="text" id="nombre" name="nombre" class="form-control" placeholder="Nombre:" autocomplete="off" style="border: 2px solid black; font-size: 20px; font-weight: bold; color: black;" required>
           </div>

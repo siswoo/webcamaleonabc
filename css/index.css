@@ -30,6 +30,7 @@ body{
 }
 
 .seccion3_titulo2{
+	/*
 	font-size: 30px;
 	border-width: 2px;
   	border-style: solid;
@@ -38,12 +39,15 @@ body{
   	padding: 1rem;
   	border-radius: 1rem;
   	text-align: center;
+  	*/
 }
 
 .seccion3_a1:hover{
+	/*
 	font-size: 32px;
 	text-decoration: none;
 	transition-duration: 1s;
+	*/
 }
 
 .seccion3_a1{

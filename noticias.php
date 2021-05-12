@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/png" href="img/favicon1.webp">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/dataTables.bootstrap4.min.css">
     <link href="resources/fontawesome/css/all.css" rel="stylesheet">

@@ -80,19 +80,22 @@
 </style>
 
 <div class="footer" style="background: black url('img/cenefa.webp') no-repeat center; color:white;">
-	<div class="container" style="padding-top: 2rem;">
+	<div class="container" style="padding-top: 2rem; font-size: 14px;">
 		<div class="row">
-			<div class="col-12 text-center mt-3">
-				<p style="margin-top: -15px; font-weight: bold;">CAMALEÓN MODELS GROUP</p>
-				<p style="margin-top: -15px; font-weight: bold;">Email: CONTACTOMODELOS@WEBCAMALEONABC.COM CEL: 3174922224</p>
-				<p style="margin-top: -15px; font-weight: bold;">Sedes: Colombia - Bogotá - Medellín - Cali</p>
-				<p style="margin-top: -15px; font-weight: bold;">Estamos presentes en toda Latinoamérica.</p>
+			<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+				<p style="margin-top: -15px; font-weight: bold;">NUESTRAS SEDES</p>
+                <p style="margin-top: -15px; font-weight: bold;">VIP OCCIDENTE | Barrio Carvajal</p>
+                <p style="margin-top: -15px; font-weight: bold;">OCCIDENTE I | Barrio Mandalay</p>
+                <p style="margin-top: -15px; font-weight: bold;">NORTE | Barrio La Española</p>
+                <p style="margin-top: -15px; font-weight: bold;">SUBA | Barrio Costa Azul</p>
+                <p style="margin-top: -15px; font-weight: bold;">CAV | Barrio Soacha</p>
 			</div>
-			<!--
-			<div class="col-3">
-				<img src="img/logos/FAVICON.png" class="img-fluid" style="max-width: 140px;">
-			</div>
-			-->
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mt-3">
+                <p style="margin-top: -15px; font-weight: bold;">INFORMACIÓN GENERAL</p>
+                <p style="margin-top: -15px; font-weight: bold;">Email: CONTACTOMODELOS@WEBCAMALEONABC.COM</p>
+                <p style="margin-top: -15px; font-weight: bold;">Teléfono: 3174922224</p>
+                <p style="margin-top: -15px; font-weight: bold;">Estamos presentes en toda Latinoamérica.</p>
+            </div>
 		</div>
 	</div>
 </div>
@@ -104,17 +107,17 @@
 
 <div class="sticky-container">
     <ul class="sticky">
-        <li style="background-color: #3b5896a6;">
-            <a href="https://www.facebook.com/camaleon.latam" target="_blank">
-            	<img src="img/icons/facebook1.webp" style="width: 28px; height: 28px;">
-            </a>
-            <!--<p><a href="https://www.facebook.com/camaleon.latam" target="_blank">Danos tu Like<br>Facebook</a></p>-->
-        </li>
         <li style="background-color: #d7273c94;">
             <a href="https://www.instagram.com/camaleonmodels/?hl=es-la" target="_blank">
             	<img src="img/icons/instagram1.webp" style="width: 32px; height: 32px;">
             </a>
             <!--<p><a href="https://www.instagram.com/camaleonmodels/?hl=es-la" target="_blank">Síguenos en <br>Instagram</a></p>-->
+        </li>
+        <li style="background-color: #3b5896a6;">
+            <a href="https://www.facebook.com/camaleon.latam" target="_blank">
+            	<img src="img/icons/facebook1.webp" style="width: 28px; height: 28px;">
+            </a>
+            <!--<p><a href="https://www.facebook.com/camaleon.latam" target="_blank">Danos tu Like<br>Facebook</a></p>-->
         </li>
         <li style="background-color: #1ca1f173;">
             <a href="https://twitter.com/modelslatam?s=11" target="_blank">

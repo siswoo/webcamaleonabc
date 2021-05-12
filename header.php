@@ -24,7 +24,7 @@
 				<a class="nav-link" style="color: white;font-size: 26px;" href="nosotros.php">NOSOTROS</a>
 			</li>
     	</ul>
-
+    	<!--
     	<ul class="navbar-nav mr-auto">
 			<li class="nav-item dropdown <?php if($ubicacion=="multimedia"){ echo "active"; }?>">
 				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;font-size: 26px;" href="multimedia.php">MULTIMEDIA</a>
@@ -33,6 +33,13 @@
 					<a class="dropdown-item" style="font-size: 20px; font-weight: bold;" href="articulo.php">Artículo</a>
 					<a class="dropdown-item" style="font-size: 20px; font-weight: bold;" href="noticias.php">Noticias</a>
 				</div>
+			</li>
+    	</ul>
+    	-->
+
+    	<ul class="navbar-nav mr-auto">
+			<li class="nav-item <?php if($ubicacion=="galeria"){ echo "active"; }?>">
+				<a class="nav-link" style="color: white;font-size: 26px;" href="galeria.php">GALERIA</a>
 			</li>
     	</ul>
 

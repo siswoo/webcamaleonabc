@@ -17,7 +17,12 @@ if($condicion=='convertir1'){
 			$image = imagecreatefromgif($source);
 		}elseif ($extension == 'png'){
 			$image = imagecreatefrompng($source);
+		}else{
+			$image = imagecreatefrompng($source);
 		}
+		imagepalettetotruecolor($image);
+		imagealphablending($image, true);
+		imagesavealpha($image, true);
 		return imagewebp($image, $destination, $quality);
 	}
 
