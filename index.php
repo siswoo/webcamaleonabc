@@ -24,17 +24,23 @@ include("header.php");
 			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
 			<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
 		</ol>
 	  		
 	  	<div class="carousel-inner">
 	    	<div class="carousel-item active">
-	      		<img class="d-block w-100 h-100" src="img/sliders/slider13.webp" alt="Primer slider" style="max-height: 600px;">
+	    		<a href="paso-a-paso.php">
+	      		<img class="d-block w-100 h-100" src="img/sliders/pasoapaso1.jpeg" alt="Primer slider" style="max-height: 600px;">
+	      	</a>
 	    	</div>
 	    	<div class="carousel-item">
-	      		<img class="d-block w-100 h-100" src="img/sliders/slider2.webp" alt="Segundo slider" style="max-height: 600px;">
+	      		<img class="d-block w-100 h-100" src="img/sliders/slider13.webp" alt="Segundo slider" style="max-height: 600px;">
 	    	</div>
 	    	<div class="carousel-item">
-	      		<img class="d-block w-100 h-100" src="img/sliders/slider3.webp" alt="Tercer slider" style="max-height: 600px;">
+	      		<img class="d-block w-100 h-100" src="img/sliders/slider2.webp" alt="Tercer slider" style="max-height: 600px;">
+	    	</div>
+	    	<div class="carousel-item">
+	      		<img class="d-block w-100 h-100" src="img/sliders/slider3.webp" alt="Cuarto slider" style="max-height: 600px;">
 	    	</div>
 	  	</div>
 	  		

@@ -1,3 +1,13 @@
+<style type="text/css">
+	.custom-toggler .navbar-toggler-icon {
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+	}
+
+	.custom-toggler.navbar-toggler {
+		border-color: rgb(255,102,203);
+	}
+</style>
+
 <nav class="navbar navbar-expand-lg navbar" style="background-color: black;">
 	<?php if($ubicacion=="Inicio"){ ?>
 		<a class="navbar-brand" href="index.php">
@@ -8,7 +18,7 @@
 			<img src="img/logos/logo1.webp" style="width: 370px; margin-right: 4rem;" class="img-fluid">
 		</a>
 	<?php } ?>
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background-color: white;">
+	<button class="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background-color: white;">
    		<span class="navbar-toggler-icon"></span>
 	</button>
 
@@ -49,7 +59,7 @@
 			</li>
     	</ul>
 
-    	<ul class="navbar-nav mr-auto">
+    	<ul class="navbar-nav mr-auto" style="display: none;">
 			<li class="nav-item <?php if($ubicacion=="preguntas"){ echo "active"; }?>">
 				<a class="nav-link" style="color: white;font-size: 26px;" href="preguntas.php">PREGUNTAS</a>
 			</li>

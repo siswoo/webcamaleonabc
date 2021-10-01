@@ -72,7 +72,7 @@ include("header.php");
 <div class="seccion6">
 	<div class="container">
 		<div class="row">
-			<div class="col-12 text-center">
+			<div class="col-12 text-center" style="display:none;">
 				ESTRUCTURA ORGANIZACIONAL (PENDIENTE)
 			</div>
 		</div>
@@ -82,7 +82,6 @@ include("header.php");
 <div class="seccion7">
 	<div class="container" style="padding-top: 1rem; padding-bottom: 2rem;">
 		<div class="row">
-			<div class="col-12 col-md-12 text-center" style="font-size: 18px; font-weight: bold;">PENDIENTE POR TERMINAR Y MODIFICAR</div>
 			<!--
 			<div class="col-12 col-md-6 text-center mt-3">
 				<div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
@@ -183,159 +182,108 @@ include("header.php");
 		<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-3">
 			<div class="card card-jj1" style="display: block !important;">
 				<div class="row">
-					<div class="col-6 text-center">
-				      	<img src="img/CAV.webp" class="img-fluid" style="max-width: 300px; border-radius: 1rem;">
-				    </div>
-				    <div class="col-6" style="font-weight:bold; font-size:21px;">
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 mt-3 text-center" style="font-weight:bold; font-size:30px;">
 						Sede CAV
 						<br>
-						Mapa Google
+				    <img src="img/CAV.webp" class="img-fluid" style="max-width: 300px; border-radius: 1rem;">
+				  </div>
+				 	<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-8 mt-3 text-center">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63633.64661210925!2d-74.24871188152376!3d4.575532158231565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f757d0cc35403%3A0x9ed118cab97d8e84!2sSoacha%2C%20Cundinamarca!5e0!3m2!1ses!2sco!4v1622241095884!5m2!1ses!2sco" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 					</div>
 				</div>
 	    	</div>
 		</div>
 
-		<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mt-3">
+		<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-3">
 			<div class="card card-jj1" style="display: block !important;">
 				<div class="row">
-					<div class="col-6 text-center">
-				      	<img src="img/VIP.webp" class="img-fluid" style="max-width: 300px; border-radius: 1rem;">
-				    </div>
-				    <div class="col-6" style="font-weight:bold; font-size:21px;">
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 mt-3 text-center" style="font-weight:bold; font-size:30px;">
 						Sede VIP Occidente
 						<br>
-						Mapa Google
+				    <img src="img/VIP.webp" class="img-fluid" style="max-width: 300px; border-radius: 1rem;">
+				  </div>
+				  <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-8 mt-3 text-center">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7953.7667064695315!2d-74.14262907584187!3d4.614887686589871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9eba4ebbaa4b%3A0xc484df08571f7f46!2sCarvajal%2C%20Antonio%20Nari%C3%B1o%2C%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1622240772364!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 					</div>
 				</div>
 	    	</div>
 		</div>
 
-		<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mt-3">
+		<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-3">
 			<div class="card card-jj1" style="display: block !important;">
 				<div class="row">
-					<div class="col-6 text-center">
-				      	<img src="img/Suba.webp" class="img-fluid" style="max-width: 300px; border-radius: 1rem;">
-				    </div>
-				    <div class="col-6" style="font-weight:bold; font-size:21px;">
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 mt-3 text-center" style="font-weight:bold; font-size:30px;">
 						Sede Suba
 						<br>
-						Mapa Google
+				    <img src="img/Suba.webp" class="img-fluid" style="max-width: 300px; border-radius: 1rem;">
+				  </div>
+				  <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-8 mt-3 text-center">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7952.364271756764!2d-74.10145397583993!3d4.738395136234248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f84f25d91b103%3A0xcbb9c64811e835bb!2sCosta%20Azul%2C%20Suba%2C%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1622240992418!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 					</div>
 				</div>
 	    	</div>
 		</div>
 
-		<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mt-3">
+		<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 mt-3">
 			<div class="card card-jj1" style="display: block !important;">
 				<div class="row">
-					<div class="col-6 text-center">
-				      	<img src="img/Norte.webp" class="img-fluid" style="max-width: 300px; border-radius: 1rem;">
-				    </div>
-				    <div class="col-6" style="font-weight:bold; font-size:21px;">
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-3 text-center" style="font-weight:bold; font-size:30px;">
+						Sede Norte
+					</div>
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-3 text-center">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.3880869516865!2d-74.09655818523771!3d4.702456096584414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9b33f93e571d%3A0x7a435284be182cba!2zTGEgRXNwYW5vbGEsIEVuZ2F0aXbDoSwgQm9nb3TDoQ!5e0!3m2!1ses!2sco!4v1622240965860!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+					</div>
+				</div>
+	    </div>
+		</div>
+
+		<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 mt-3">
+			<div class="card card-jj1" style="display: block !important;">
+				<div class="row">
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-3 text-center" style="font-weight:bold; font-size:30px;">
+						Sede Occidente I
+					</div>
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-3 text-center">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7953.614924976904!2d-74.14731357584157!3d4.628413236550864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9c1e1fc8f435%3A0xcdae33d18599a236!2sMandalay%2C%20Antonio%20Nari%C3%B1o%2C%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1622240932598!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+					</div>
+				</div>
+	    	</div>
+		</div>
+
+		<!--
+		<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-3">
+			<div class="card card-jj1" style="display: block !important;">
+				<div class="row">
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 mt-3 text-center" style="font-weight:bold; font-size:30px;">
 						Sede Norte
 						<br>
-						Mapa Google
+				    <img src="img/Norte.webp" class="img-fluid" style="max-width: 300px; border-radius: 1rem;">
+				  </div>
+				  <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-8 mt-3 text-center">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.3880869516865!2d-74.09655818523771!3d4.702456096584414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9b33f93e571d%3A0x7a435284be182cba!2zTGEgRXNwYW5vbGEsIEVuZ2F0aXbDoSwgQm9nb3TDoQ!5e0!3m2!1ses!2sco!4v1622240965860!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 					</div>
 				</div>
 	    	</div>
 		</div>
 
-		<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mt-3">
+		<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-3">
 			<div class="card card-jj1" style="display: block !important;">
 				<div class="row">
-					<div class="col-6 text-center">
-				      	<img src="img/Occidente1.webp" class="img-fluid" style="max-width: 300px; border-radius: 1rem;">
-				    </div>
-				    <div class="col-6" style="font-weight:bold; font-size:21px;">
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 mt-3 text-center" style="font-weight:bold; font-size:30px;">
 						Sede Occidente I
 						<br>
-						Mapa Google
+				    <img src="img/Occidente1.webp" class="img-fluid" style="max-width: 300px; border-radius: 1rem;">
+				 	</div>
+				  <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-8 mt-3 text-center">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7953.614924976904!2d-74.14731357584157!3d4.628413236550864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9c1e1fc8f435%3A0xcdae33d18599a236!2sMandalay%2C%20Antonio%20Nari%C3%B1o%2C%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1622240932598!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 					</div>
 				</div>
 	    	</div>
 		</div>
+		-->
+
 	</div>
 </div>
-
-<!--
-<div class="seccion3">
-	<div class="row mt-3">
-	  <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mt-3 text-center">
-	    <div class="card card-jj1" style="display: block !important;">
-	      <div class="col-12 text-center mt-3 mb-3" style="font-weight:bold; font-size:21px;">Sede VIP Occidente</div>
-	      <img src="img/VIP.webp" class="img-fluid" style="max-width: 300px; border-radius: 1rem;">
-	      <div class="card-body">
-	        <h5 class="card-title text-center">
-	          <button type="button" data-toggle="modal" data-target="#exampleModal1" onclick="estructura1('VIP');" class="btn btn-primary">Ver Estructura Organizacional</button>
-	        </h5>
-	      </div>
-	    </div>
-	  </div>
-
-	  <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mt-3 text-center">
-	    <div class="card card-jj1" style="display: block !important;">
-	      <div class="col-12 text-center mt-3 mb-3" style="font-weight:bold; font-size:21px;">Sede CAV</div>
-	      <img src="img/CAV.webp" class="img-fluid" style="max-width: 300px; border-radius: 1rem;">
-	      <div class="card-body">
-	        <h5 class="card-title text-center">
-	          <button type="button" data-toggle="modal" data-target="#exampleModal1" onclick="estructura1('CAV');" class="btn btn-primary">Ver Estructura Organizacional</button>
-	        </h5>
-	      </div>
-	    </div>
-	  </div>
-
-	  <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-3 text-center">
-	    <div class="card card-jj1" style="display: block !important;">
-	      <div class="col-12 text-center mt-3 mb-3" style="font-weight:bold; font-size:21px;">Sede Suba</div>
-	      <img src="img/Suba.webp" class="img-fluid" style="max-width: 300px; border-radius: 1rem;">
-	      <div class="card-body">
-	        <h5 class="card-title text-center">
-	          <button type="button" data-toggle="modal" data-target="#exampleModal1" onclick="estructura1('Suba');" class="btn btn-primary">Ver Estructura Organizacional</button>
-	        </h5>
-	      </div>
-	    </div>
-	  </div>
-
-	  <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-3 text-center">
-	    <div class="card card-jj1" style="display: block !important;">
-	      <div class="col-12 text-center mt-3 mb-3" style="font-weight:bold; font-size:21px;">Sede Norte</div>
-	      <img src="img/Norte.webp" class="img-fluid" style="max-width: 300px; border-radius: 1rem;">
-	      <div class="card-body">
-	        <h5 class="card-title text-center">
-	          <button type="button" data-toggle="modal" data-target="#exampleModal1" onclick="estructura1('Norte');" class="btn btn-primary">Ver Estructura Organizacional</button>
-	        </h5>
-	      </div>
-	    </div>
-	  </div>
-
-	  <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-3 text-center">
-	    <div class="card card-jj1" style="display: block !important;">
-	      <div class="col-12 text-center mt-3 mb-3" style="font-weight:bold; font-size:21px;">Sede Occidente I</div>
-	      <img src="img/Occidente1.webp" class="img-fluid" style="max-width: 300px; border-radius: 1rem;">
-	      <div class="card-body">
-	        <h5 class="card-title text-center">
-	          <button type="button" data-toggle="modal" data-target="#exampleModal1" onclick="estructura1('Occidente1');" class="btn btn-primary">Ver Estructura Organizacional</button>
-	        </h5>
-	      </div>
-	    </div>
-	  </div>
-	</div>
-</div>
--->
-<!--
-<div class="seccion4">
-	<div class="container" style="padding-top: 2rem;">
-		<div class="row">
-			<div class="col-12 text-center" style="font-weight: bold; font-size: 25px;">
-				En Camaleón Models <br> no te define tu sexualidad raza o género <br> ¡Te empoderamos y aceptamos quien elijas ser!
-			</div>
-			<div class="col-12 col-md-12 text-center mt-3">
-				<iframe width="800" height="400" src="https://www.youtube.com/embed/LUuDx2wbSFA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			</div>
-		</div>
-	</div>
-</div>
--->
 
 <?php
 include("footer.php");

@@ -82,18 +82,36 @@
 <div class="footer" style="background: black url('img/cenefa.webp') no-repeat center; color:white;">
 	<div class="container" style="padding-top: 2rem; font-size: 14px;">
 		<div class="row">
-			<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-				<p style="margin-top: -15px; font-weight: bold;">NUESTRAS SEDES</p>
+			<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+				<p style="margin-top: -15px; font-weight: bold;">NUESTRAS SEDES BOGOTÁ</p>
                 <p style="margin-top: -15px; font-weight: bold;">VIP OCCIDENTE | Barrio Carvajal</p>
                 <p style="margin-top: -15px; font-weight: bold;">OCCIDENTE I | Barrio Mandalay</p>
                 <p style="margin-top: -15px; font-weight: bold;">NORTE | Barrio La Española</p>
                 <p style="margin-top: -15px; font-weight: bold;">SUBA | Barrio Costa Azul</p>
                 <p style="margin-top: -15px; font-weight: bold;">CAV | Barrio Soacha</p>
 			</div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mt-3">
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <p style="margin-top: -15px; font-weight: bold;">NUESTRAS SEDES MEDELLIN</p>
+                <p style="font-weight: bold;">SEDE BELÉN | Barrio Belén</p>
+                <p style="margin-top: -15px; font-weight: bold;">SEDE MANRIQUE | Barrio Manrique</p>
+                <p style="margin-top: -15px; font-weight: bold;">SEDE SUR AMERICANA | Barrio Sur Americana</p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mt-3">
                 <p style="margin-top: -15px; font-weight: bold;">INFORMACIÓN GENERAL</p>
-                <p style="margin-top: -15px; font-weight: bold;">Email: CONTACTOMODELOS@WEBCAMALEONABC.COM</p>
-                <p style="margin-top: -15px; font-weight: bold;">Teléfono: 3174922224</p>
+                <p style="margin-top: -15px; font-weight: bold; text-transform: uppercase;">Email: contactomodelos@web.camaleonmg.com</p>
+                <?php
+                $sql1 = "SELECT * FROM numeros_whatsapp WHERE ambiente = 'webcamaleonabc_opcion2'";
+                $proceso1 = mysqli_query($conexion,$sql1);
+                $contador1 = mysqli_num_rows($proceso1);
+                if($contador1>=1){
+                    while($row1 = mysqli_fetch_array($proceso1)) {
+                        $webcamaleonabcopcion2 = $row1["numero"];
+                    }
+                }else{
+                    $webcamaleonabcopcion2 = "";
+                }
+                ?>
+                <p style="margin-top: -15px; font-weight: bold;">Teléfono: <?php echo $webcamaleonabcopcion2; ?></p>
                 <p style="margin-top: -15px; font-weight: bold;">Estamos presentes en toda Latinoamérica.</p>
             </div>
 		</div>
@@ -101,32 +119,32 @@
 </div>
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<a href="https://api.whatsapp.com/send?phone=573174922224&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n!!!" class="float" target="_blank">
+<a href="https://api.whatsapp.com/send?phone=57<?php echo $webcamaleonabcopcion2; ?>&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n!!!" class="float" target="_blank">
 <i class="fa fa-whatsapp my-float" style="font-size: 50px;"></i>
 </a>
 
 <div class="sticky-container">
     <ul class="sticky">
         <li style="background-color: #d7273c94;">
-            <a href="https://www.instagram.com/camaleonmodels/?hl=es-la" target="_blank">
+            <a href="https://www.instagram.com/webcamaleonabc/" target="_blank">
             	<img src="img/icons/instagram1.webp" style="width: 32px; height: 32px;">
             </a>
             <!--<p><a href="https://www.instagram.com/camaleonmodels/?hl=es-la" target="_blank">Síguenos en <br>Instagram</a></p>-->
         </li>
         <li style="background-color: #3b5896a6;">
-            <a href="https://www.facebook.com/camaleon.latam" target="_blank">
+            <a href="https://www.facebook.com/camaleonmodel/?ref=pages_you_manage" target="_blank">
             	<img src="img/icons/facebook1.webp" style="width: 28px; height: 28px;">
             </a>
             <!--<p><a href="https://www.facebook.com/camaleon.latam" target="_blank">Danos tu Like<br>Facebook</a></p>-->
         </li>
         <li style="background-color: #1ca1f173;">
-            <a href="https://twitter.com/modelslatam?s=11" target="_blank">
+            <a href="https://twitter.com/CamaleonModels" target="_blank">
             	<img src="img/icons/twitter1.webp" style="width: 32px; height: 32px;">
             </a>
             <!--<p><a href="https://twitter.com/modelslatam?s=11" target="_blank">Síguenos en <br>Twitter</a></p>-->
         </li>
         <li style="background-color: #cb37379e;">
-            <a href="https://www.youtube.com/channel/UC4Sp29vYda88cXvvm17zckw" target="_blank">
+            <a href="https://www.youtube.com/channel/UCYOiiDOd8X9nsEufMFfa9SA/videos" target="_blank">
             	<img src="img/icons/youtube1.webp" style="width: 32px; height: 32px;">
             </a>
             <!--<p><a href="https://www.youtube.com/channel/UC4Sp29vYda88cXvvm17zckw" target="_blank">Sigue nuestro canal de <br>Youtube</a></p>-->

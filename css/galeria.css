@@ -28,3 +28,9 @@ body{
 .seccion2{
   width: 
 }
+
+@media (max-width: 1300px) {
+  .seccion3_img-texto{
+    display: none; 
+  }
+}
