@@ -127,7 +127,7 @@
 	$(document).ready(function() {
 		filtrar1();
 		noEnviados();
-		setInterval('filtrar1()',5000);
+		setInterval('filtrar1()',3000);
 		setInterval('noEnviados()',2000);
 
 		$(function () {
@@ -188,7 +188,7 @@
 			data: {
 				"id": id,
 				"estatus": estatus,
-				"condicion": "estatus1",
+				"condicion": "estatus2",
 			},
 
 			success: function(respuesta) {
