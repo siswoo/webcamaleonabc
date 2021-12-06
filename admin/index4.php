@@ -18,24 +18,8 @@
 <body>
 <?php
 	include('../script/conexion.php');
+	include("opciones.php");
 ?>
-
-<div class="container mt-3">
-	<div class="row">
-		<div class="col-12 text-center">
-			<a href="index2.php">
-				<button class="btn btn-info">Listado Web</button>
-			</a>
-			<a href="index3.php">
-				<button class="btn btn-info">WhatsApp</button>
-			</a>
-			<a href="index4.php">
-				<button class="btn btn-info">Listado Wix</button>
-			</a>
-		</div>
-		</div>
-	</div>
-</div>
 
 <div class="container mt-3">
 	<div class="row">

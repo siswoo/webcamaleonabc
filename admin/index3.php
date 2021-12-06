@@ -18,6 +18,7 @@
 <body>
 <?php
 	include('../script/conexion.php');
+	include("opciones.php");
 ?>
 
 <div class="container mt-3">

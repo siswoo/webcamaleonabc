@@ -132,7 +132,7 @@
             <!--<p><a href="https://www.instagram.com/camaleonmodels/?hl=es-la" target="_blank">Síguenos en <br>Instagram</a></p>-->
         </li>
         <li style="background-color: #3b5896a6;">
-            <a href="https://www.facebook.com/camaleonmodel/?ref=pages_you_manage" target="_blank">
+            <a href="https://www.facebook.com/profile.php?id=100070776395766" target="_blank">
             	<img src="img/icons/facebook1.webp" style="width: 28px; height: 28px;">
             </a>
             <!--<p><a href="https://www.facebook.com/camaleon.latam" target="_blank">Danos tu Like<br>Facebook</a></p>-->
