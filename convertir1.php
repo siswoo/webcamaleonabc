@@ -26,9 +26,9 @@
 					<option value="50">50%</option>
 					<option value="60">60%</option>
 					<option value="70">70%</option>
-					<option value="80" selected="selected">80%</option>
+					<option value="80">80%</option>
 					<option value="90">90%</option>
-					<option value="100">100%</option>
+					<option value="100" selected="selected">100%</option>
 				</select>
 			</div>
 			<div class="col-12 mt-3 text-right">

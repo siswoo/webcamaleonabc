@@ -77,3 +77,14 @@ CREATE TABLE malos1 (
 	fecha_creacion date NOT NULL,
 	PRIMARY KEY (id)
 ); ALTER TABLE malos1 CONVERT TO CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+
+DROP TABLE IF EXISTS apiwhatsapp;
+CREATE TABLE apiwhatsapp (
+	id INT AUTO_INCREMENT,
+	url VARCHAR(250) NOT NULL,
+	token VARCHAR(250) NOT NULL,
+	fecha_inicio date NOT NULL,
+	PRIMARY KEY (id)
+); ALTER TABLE apiwhatsapp CONVERT TO CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+
+INSERT INTO apiwhatsapp (url,token) VALUES ("instance261035","hyg1a0vao95bq3ij");

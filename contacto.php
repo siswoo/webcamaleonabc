@@ -162,13 +162,6 @@ include("footer.php");
 
       error: function(respuesta) {
         console.log(respuesta['responseText']);
-        Swal.fire({
-          position: 'center',
-          icon: 'error',
-          title: 'Ha ocurrido un error, estamos trabajando para arreglarlo!',
-          showConfirmButton: false,
-          timer: 3000
-        });
       }
     });
   });

@@ -21,7 +21,7 @@
 				<div class="form-group col-12">
 				    <label for="file">Archivo Generado</label>
 				    <input type="file" class="form-control" name="file" id="file" required>
-				    <input type="hidden" name="condicion" id="condicion" value="subir1">
+				    <input type="hidden" name="condicion" id="condicion" value="subir2">
 				</div>
 				<div class="form-group col-12 text-center">
 				    <button type="submit" id="formulario1_submit" class="btn btn-primary">Cargar Excel</button>

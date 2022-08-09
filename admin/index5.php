@@ -67,6 +67,8 @@
 						<option value="">BASE DE DATOS</option>
 						<option value="wix">WIX</option>
 						<option value="formulario_contacto1">WEB</option>
+						<option value="pasantes">PASANTES</option>
+						<option value="modelos">MODELOS</option>
 					</select>
 					<button type="submit" class="btn btn-success mt-3 mb-3">Descargar Excel</button>
 				</form>

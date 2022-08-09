@@ -11,15 +11,13 @@ if($condicion=='convertir1'){
     $images_arr = array();
 
     function convertirWebp($source, $destination, $extension, $quality) {
+		/*
 		if ($extension == 'jpeg' || $extension == 'jpg'){
 			$image = imagecreatefromjpeg($source);
-		}elseif ($extension == 'gif'){
-			$image = imagecreatefromgif($source);
 		}elseif ($extension == 'png'){
 			$image = imagecreatefrompng($source);
-		}else{
-			$image = imagecreatefrompng($source);
-		}
+		}*/
+		$image = imagecreatefromjpeg($source);
 		imagepalettetotruecolor($image);
 		imagealphablending($image, true);
 		imagesavealpha($image, true);

@@ -33,6 +33,93 @@ if($condicion=='contacto1'){
 	$sql1 = "INSERT INTO formulario_contacto1 (nombre,correo,telefono,edad,mensaje,fecha_creacion) VALUES ('$nombre','$correo','$telefono','$edad','$mensaje','$fecha_creacion')";
 	$proceso1 = mysqli_query($conexion,$sql1);
 
+	/*****************APARTADO DE WHATSAPP************/
+	
+$msg = "Hola!! ".$nombre.", 🥰 Bienvenid@ a 
+Camaleón Models Group
+
+Es un gusto recibir tu solicitud de información!! mi nombre es 
+Gabriela Sánchez
+
+Tienes experiencia en el trabajo!!
+
+¡Es Tiempo de la revolución digital! ¡Transforma tu Vida al lado de una Compañía de Profesionales!✅✅
+
+Cordialmente,
+Community Manager Camaleón Models Group";
+
+	$phone = $codigo_pais.$telefono;
+	$result = sendMessage($phone,$msg);
+
+	if($result !== false){
+		if($result->sent == 1){}else{}
+	}else{
+		var_dump($result);
+	}
+	
+	/***************************************************/
+
+	/***************APARTADO DE CORREO*****************/
+	set_time_limit(0);
+    ignore_user_abort(true);
+    /*CONFIGURACIÓN DE CLASE*/
+        $mail = new PHPMailer;
+        $mail->isSMTP(); //Indicar que se usará SMTP
+        $mail->CharSet = 'UTF-8';//permitir envío de caracteres especiales (tildes y ñ)
+    /*CONFIGURACIÓN DE DEBUG (DEPURACIÓN)*/
+        $mail->SMTPDebug = 0; //Mensajes de debug; 0 = no mostrar (en producción), 1 = de cliente, 2 = de cliente y servidor
+        $mail->Debugoutput = 'html'; //Mostrar mensajes (resultados) de depuración(debug) en html
+    /*CONFIGURACIÓN DE PROVEEDOR DE CORREO QUE USARÁ EL EMISOR(GMAIL)*/
+        $mail->Host = 'mail.camaleonmg.com'; //Nombre de host
+        $mail->Port = 587; //Puerto SMTP, 587 para autenticado TLS
+        $mail->SMTPSecure = 'tls'; //Sistema de encriptación - ssl (obsoleto) o tls
+        $mail->SMTPAuth = true;//Usar autenticación SMTP
+        $mail->SMTPOptions = array(
+            'ssl' => array('verify_peer' => false,'verify_peer_name' => false,'allow_self_signed' => true)
+        );//opciones para "saltarse" comprobación de certificados (hace posible del envío desde localhost)
+    //CONFIGURACIÓN DEL EMISOR
+        $mail->Username = "noreply@camaleonmg.com";
+        $mail->Password = "juanmaldonado123";
+        $mail->setFrom('noreply@camaleonmg.com', 'Camaleon Models');
+
+    //CONFIGURACIÓN DEL MENSAJE, EL CUERPO DEL MENSAJE SERA UNA PLANTILLA HTML QUE INCLUYE IMAGEN Y CSS
+        $mail->Subject = '$2.500.000 Mensuales!!'; //asunto del mensaje
+        //incrustar imagen para cuerpo de mensaje(no confundir con Adjuntar)
+           // $mail->AddEmbeddedImage($sImagen, 'imagen'); //ruta de archivo de imagen
+        //cargar archivo css para cuerpo de mensaje
+            //$rcss = "../css/estilo_correo1.css"; //ruta de archivo css
+            @$fcss = fopen ($rcss, "r");//abrir archivo css
+            @$scss = fread ($fcss, filesize ($rcss));//leer contenido de css
+            @fclose ($fcss);//cerrar archivo css
+        //Cargar archivo html   
+            $shtml = file_get_contents('https://webcamaleonabc.com/script/mensaje1.html');
+        //reemplazar sección de plantilla html con el css cargado y mensaje creado
+            //$incss  = str_replace('<style id="estilo"></style>',"<style>$scss</style>",$shtml);
+            //$cuerpo = str_replace('<p id="mensaje"></p>',"Mensaje de Prueba!",$incss);
+            $cuerpo = str_replace('<p id="mensaje"></p>',"Mensaje de Prueba!",$shtml);
+        $mail->Body = $cuerpo; //cuerpo del mensaje
+        $mail->AltBody = '---';//Mensaje de sólo texto si el receptor no acepta HTML
+
+    //CONFIGURACIÓN DE ARCHIVOS ADJUNTOS 
+        //$mail->addAttachment($sAdjunto);
+
+    /**********CONFIGURACIÓN DE RECEPTORES**********/
+    $mail->addAddress($correo, '');
+    /*
+	$aDestino = explode(",",$correo);
+	foreach ( $aDestino as $i => $sDest){
+		$mail->addAddress(trim($sDest), "Juan Maldonado ".$i+1);
+	}
+	/************************************************/
+
+    /*****ENVIAR MENSAJE******/
+    if (!$mail->send()) {
+        //echo "Error al enviar: " . $mail->ErrorInfo;
+    } else {
+        //echo "Mensaje enviado correctamente";
+    }
+    /************************/
+
 	$datos = [
 		"estatus" => 'ok',
 		"sql" => $sql1,

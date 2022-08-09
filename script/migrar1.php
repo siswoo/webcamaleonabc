@@ -42,4 +42,36 @@ if($condicion=='subir1'){
 
 }
 
+if($condicion=='subir2'){
+  $archivo_nombre = $_FILES['file']['name'];
+  $archivo_temporal = $_FILES['file']['tmp_name'];
+  $sql1 = "TRUNCATE wix";
+  $proceso1 = mysqli_query($conexion,$sql1);
+
+  $extension = explode(".", $archivo_nombre);
+  $extension = $extension[count($extension)-1];
+
+  $spreadsheet = \PhpOffice\PhpSpreadsheet\IOFactory::load($archivo_temporal);
+  $worksheet = $spreadsheet->getActiveSheet();
+
+  $limite = 20000;
+
+  for($i=2;$i<=$limite;$i++){
+      if($worksheet->getCell('A'.$i)!=''){ 
+      $nombre = $worksheet->getCell('A'.$i);
+      $telefono = $worksheet->getCell('B'.$i);
+      $hablame = 0;
+      $estatus = 1;
+      $sql2 = "INSERT INTO wix (nombre,correo,telefono,hablame,estatus,fecha_creacion) VALUES ('$nombre','$correo','$telefono','$hablame','$estatus','$fecha_creacion')";
+      $proceso2 = mysqli_query($conexion,$sql2);
+      }
+  }
+
+  $datos = [
+    "estatus" => "ok",
+  ];
+  echo json_encode($datos);
+
+}
+
 ?>
